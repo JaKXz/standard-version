@@ -1,3 +1,5 @@
+'use strict'
+
 var conventionalRecommendedBump = require('conventional-recommended-bump')
 var conventionalChangelog = require('conventional-changelog')
 var path = require('path')

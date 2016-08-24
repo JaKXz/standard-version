@@ -1,5 +1,7 @@
 #!/usr/bin/env node
 
+'use strict'
+
 var tasks = require('./tasks')
 var argv = require('yargs')
   .usage('Usage: $0 [options]')
