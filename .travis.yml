@@ -8,4 +8,4 @@ before_script:
   - git config --global user.name 'Travis-CI'
   - git config --global user.email 'dummy@example.org'
 
-after_success: npm run coverage
+after_success: "cat ./coverage/lcov.info | ./node_modules/.bin/coveralls"
